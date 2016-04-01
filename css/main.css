@@ -87,6 +87,26 @@ div {
 
   background-color: orange;
   border-radius: 50%;
+  animation: all 1s ease;
+}
+
+.circle-bounce {
+  animation: circle-bounce 3s ease;
+}
+
+@keyframes circle-bounce {
+  0% {
+    transform: translateY(0%);
+  }
+  10% {
+    transform: translateY(-100%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  30% {
+    transform: translateY(-50%);
+  }
 }
 
 .list {
