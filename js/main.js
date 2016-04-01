@@ -13,3 +13,7 @@ $('.btn-collapse-expand').on('click', function () {
 $('.btn-bounce').on('click', function () {
   $('.circle').toggleClass('circle-bounce');
 });
+
+$('.btn-append').on('click', function () {
+  $('.list').append('<li>New List Item</li>');
+});
