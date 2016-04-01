@@ -50,6 +50,11 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
+  transition: all 1s ease;
+}
+
+.diamond-move {
+  right: 100px;
 }
 
 .panel {
@@ -63,11 +68,16 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  transition: all 1s ease;
 }
 
 .panel h2 {
   margin: 0;
   padding: 3rem 0;
+}
+
+.panel-collapse {
+  max-height: 0;
 }
 
 .circle {
