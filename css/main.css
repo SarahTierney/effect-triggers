@@ -96,16 +96,16 @@ div {
 
 @keyframes circle-bounce {
   0% {
-    transform: translateY(0%);
+    transform: translate(0%,0%);
   }
-  10% {
-    transform: translateY(-100%);
+  25% {
+    transform: translate(-50px,-100%);
   }
-  20% {
-    transform: translateY(0%);
+  50% {
+    transform: translate(-100px,0%);
   }
-  30% {
-    transform: translateY(-50%);
+  100% {
+    transform: translate(-150px,-50%);
   }
 }
 
